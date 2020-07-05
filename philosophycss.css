@@ -1,0 +1,19 @@
+.container{
+  width: 70%;
+  margin: 20px auto;
+  overflow: auto;
+}
+
+.title{
+  background: #1f88f4;
+  color: #ffffff;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 900px){
+  .container{
+    width: 90%;
+  }
+}
